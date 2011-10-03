@@ -43,7 +43,21 @@
                 "firefox_binary": "/Applications/Nightly.app/Contents/MacOS/firefox-bin",
                 "platform": "MAC",
                 "maxInstances": 5
-            }
+            },
+            {
+                "browserName" : "android",
+                "version": "",
+                "platform": "LINUX",
+                "maxInstances" : 1
+            },
+            {
+                "browserName" : "iphone",
+                "version": "",
+                "platform": "MAC",
+                "maxInstances" : 1
+            },
+
+
         ],
     "configuration": {
         "timeout": 180000
